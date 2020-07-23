@@ -19,7 +19,6 @@ BaiDuYun：图片+代码+数据库文件
 * 将数据库文件 
 建议下载一个 `phpstudy`，然后新建一个数据库，将数据库文件 `WooYundata.zip` 解压内容放在数据库安装位置的 `data` 目录下对应数据库文件夹里面
 例如：`phpstudy\Extensions\MySQL5.7.26\data\wooyun`
-
 更改代码文件 `config.py`，中的
 ```
 DATABASE = 'wooyun'   # 你的数据库名
