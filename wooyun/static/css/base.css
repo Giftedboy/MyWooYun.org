@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-all{
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
+    font-size: 17px;
+
+}
+
+.my_main{
+    width: 60%;
+    margin: 0 auto;
+}
+/*.nav-change li {*/
+/*    text-align: center;*/
+/*}*/
+
+
+.all{
+    background-color: white;
+}
+.My_name{
+    font-family: Georgia;
+    padding-left: 32px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all .3s ease!important
+
+}
+.My_name:hover {
+	color: #2D8CF0!important;
+	text-decoration: none!important
+}
+.header-all ul li{
+    text-align: -webkit-match-parent;
+    position: relative;
+}
+
+.header-all ul li a{
+    width: 100%;
+}
+.nav-change{
+
+    word-break: break-all;
+}
+
+.nav-change li a{
+    transition: all .3s ease!important
+}
+.nav-change li a:hover {
+	color: #2D8CF0!important;
+	text-decoration: none!important
+}
+
+.header-all ul li:hover i{
+    width: 100%;
+	left: 0
+}
+
+.header-all ul li i{
+    width: 0;
+	height: 4px;
+	background-color: #2D8CF0;
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transition: 1s
+}
+
+.divider{
+    background: #ddd;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255,255,255,0)), color-stop(#ccc), to(rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
+    background: linear-gradient(to right, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
+    height: 1px;
+    margin: 2em 0;
+}
