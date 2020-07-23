@@ -8,6 +8,34 @@ BaiDuYun：图片+代码+数据库文件
 [MyWooYun]()
 
 ## 怎么搭建
+* 将所有文件下载下来
+    * 源代码 `MyWooYun源码.zip`
+    * 数据库文件 `WooYundata.zip`
+    * 图片文件: Drops图片 `full.zip`    漏洞图片 `10-14.zip`、`15-a.zip`、`15-b.zip`、`16.zip`
+
+* 将图片文件解压
+其中 full.zip 内所有图片(不是整个文件夹)放在代码文件夹中的 full 中,将 `10-14.zip`、`15-a.zip`、`15-b.zip`、`16.zip` 解压放在 images 文件夹
+
+* 将数据库文件 
+建议下载一个 phpstudy，然后新建一个数据库，将数据库文件 `WooYundata.zip` 解压内容放在数据库安装位置的 data 目录下对应数据库文件夹里面
+例如：`phpstudy\Extensions\MySQL5.7.26\data\wooyun`
+
+更改代码文件 `config.py`，中的
+```
+DATABASE = 'wooyun'   # 你的数据库名
+USERNAME = 'wooyun'   # 数据库账号
+PASSWORD = 'qwe123'   # 数据库密码
+```
+* 运行以下神奇代码即可
+```
+pip install -r requirements.txt
+python3 manage.py db init
+python3 manage.py db migrate
+python3 manage.py db upgrade
+python3 -m flask run
+```
+* 打开 `127.0.0.1:5000` 即可
+
 
 
 ## 说明
