@@ -8,7 +8,7 @@ BaiDuYun：图片+代码+数据库文件
 [MyWooYun]()
 
 ## 怎么搭建
-* 将所有文件下载下来
+* 将云盘所有文件下载下来
     * 源代码 `MyWooYun源码.zip`
     * 数据库文件 `WooYundata.zip`
     * 图片文件: Drops图片 `full.zip`    漏洞图片 `10-14.zip`、`15-a.zip`、`15-b.zip`、`16.zip`
